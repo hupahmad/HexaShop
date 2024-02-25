@@ -1,0 +1,24 @@
+.container{
+  @apply flex items-center gap-[100px]; 
+}
+.col{
+  @apply flex flex-[1] flex-col gap-[50px];
+}
+.title{
+  @apply text-[64px] font-[900] uppercase;
+  background: linear-gradient(to bottom, var(--main-color), var(--sec-color));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.desc{
+  @apply text-[24px] leading-8 ;
+} 
+.button{
+  @apply p-[20px] cursor-pointer 
+  text-[20px] bg-[--main-color] 
+  border-none rounded-[--round]  text-[#fff]
+  w-max uppercase font-bold ;
+}
+.img{
+  @apply w-[100%] h-[500px] object-contain;
+}

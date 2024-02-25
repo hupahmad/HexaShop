@@ -1,0 +1,31 @@
+
+
+.title{
+  @apply mb-[15px] text-[40px] ;
+}
+
+.desc{
+  @apply text-[18px];
+}
+
+.imageContainer{
+  @apply relative h-[300px] mt-[25px] mb-[25px]  ;
+}
+
+.image{
+  @apply object-cover rounded-[15px];
+}
+
+.postImage{}
+
+.author{
+  @apply absolute bg-[--main-color] text-[#111] bottom-0 right-0;
+  padding: 5px 10px;
+}
+
+.content{}
+
+.text{
+  @apply text-[16px] leading-[24px] columns-[2] text-justify;
+}
+

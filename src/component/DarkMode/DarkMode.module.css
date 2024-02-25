@@ -1,0 +1,15 @@
+.container{
+  @apply rounded-[30px] cursor-pointer
+  flex justify-between items-center p-[2px] relative;
+  border: 2px solid var(--main-color);
+}
+
+.icon{
+  @apply text-[18px];
+}
+
+.switch{
+  @apply w-[22px] bg-[--main-color] rounded-[50%] 
+  absolute ;
+  aspect-ratio: 1/1;
+}

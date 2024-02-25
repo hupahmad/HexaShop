@@ -1,0 +1,13 @@
+.container{
+  @apply h-[50px] text-[14px] 
+  flex items-center justify-between;
+}
+
+.social{
+  @apply flex items-center gap-[10px] ;
+}
+
+.icons{
+  @apply opacity-[0.6] cursor-pointer hover:opacity-[1];
+  transition: opacity 0.3s ease-in;
+}

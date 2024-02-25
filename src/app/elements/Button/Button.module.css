@@ -1,0 +1,4 @@
+.logout{
+  @apply cursor-pointer bg-[--main-color] 
+  border-none rounded-[--round]  text-[#fff] p-[3px] ;
+}
