@@ -1,6 +1,6 @@
 /* @tailwind base; */
 @tailwind components;
-@tailwind utilities; 
+@tailwind utilities;
 
 /* :root {
   --foreground-rgb: 0, 0, 0;
@@ -32,47 +32,44 @@ body {
   }
 } */
 
-:root{
-  --main-color: #3e2af6 ;
-  --sec-color:#bbb;
-  --round:5px;
+:root {
+  --main-color: #28e832;
+  --sec-color: #bbb;
+  --round: 5px;
 }
 
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Montserrat';
-  
+  font-family: "Montserrat";
 }
 
-body{
-  @apply  overflow-scroll max-w-[100vw];
+body {
+  @apply overflow-scroll max-w-[100vw];
 }
 
-.theme{
+.theme {
   transition: 0.5s all ease-in-out;
 }
 
-.light{
-  @apply   bg-[#eee] text-[#111]
+.light {
+  @apply bg-[#eee] text-[#111];
 }
-.dark{
-  @apply  bg-[#111] text-[#bbb];
+.dark {
+  @apply bg-[#111] text-[#bbb];
 }
 
-a{
+a {
   color: inherit;
   text-decoration: none;
 }
 
-
 @media (prefers-color-scheme: dark) {
-  html{
+  html {
     color-scheme: dark;
   }
 }
-.container{
+.container {
   @apply max-w-[1300px] min-h-[100vh] mt-0 mr-auto ml-auto flex flex-col justify-between p-[20px];
 }
-
